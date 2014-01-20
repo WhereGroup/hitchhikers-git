@@ -11,8 +11,8 @@ empty repository.
 
         $ git clone https://github.com/mapbender/mapbender-starter <project>
     
-2. Check out the required starter commit; can be a commit, tag or branch. By
-   default, the develop branch will already be checked out:
+2. Check out the required starter branch. By default, the develop branch will
+   already be checked out:
 
         $ cd <project>
         $ git checkout <whatever>
@@ -28,8 +28,13 @@ empty repository.
 Finally, follow the instructions given in the
 [Mapbender documentation](http://doc.mapbender3.org/en/book/installation_git.html).
 
-You very likely will want to change the remote URLs in the submodules to use
-SSH access for pushing.
+
+NOTICE: You very likely will want to change the remote URLs in the submodules to
+use SSH access for pushing.
+
+NOTICE: You are pushing the develop branch in the last step (or whichever branch
+you selected in step 2). So anyone else will also need to checkout that branch
+while or after cloning the new repository.
 
 Keeping up-to date with the starter project
 -------------------------------------------
